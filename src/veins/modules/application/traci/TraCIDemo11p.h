@@ -41,8 +41,8 @@ class TraCIDemo11p : public BaseWaveApplLayer {
 		TraCICommandInterface* traci;
 		TraCICommandInterface::Vehicle* traciVehicle;
 		AnnotationManager* annotations;
-//		 simtime_t lastDroveAt;
-		simtime_t lastSent; // the last time this sent a message
+		 simtime_t lastDroveAt;
+//		simtime_t lastSent; // the last time this sent a message
 		bool sentMessage;
 		bool isParking;
 		bool sendWhileParking;
